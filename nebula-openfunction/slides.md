@@ -95,6 +95,418 @@ layout: 'intro'
 layout: section
 ---
 
+# Serverless 简介
+
+什么是 Serverless ？ Serverless / FaaS 领域开源现状如何？ Serverless 的新愿景？
+
+---
+layout: quote
+---
+
+# Serverless / FaaS 领域开源项目现状
+
+<div class="abs-tl mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+```shell {1|2-5|6-8}
+现有开源 FaaS 项目: 绝大多数启动较早，大部分都在 Knative 出现前就已经存在了
+
+Knative: 非常杰出的 Serverless 平台，Knative Serving 仅仅能运行应用，不能运行函数，还不能称之为 FaaS 平台
+Knative Eventing: 非常优秀的事件管理框架，但设计有些过于复杂，用户用起来有一定门槛
+OpenFaaS: 比较流行的 FaaS 项目，但是技术栈有点老旧，依赖于 Prometheus 和 Alertmanager 进行 Autoscaling，也并非最专业和敏捷的做法
+
+近年来云原生 Serverless 相关领域陆续涌现出了很多优秀的开源项目：
+KEDA、Dapr、Cloud Native Buildpacks（CNB）、Tekton、Shipwright
+```
+---
+layout: center
+class: text-center
+---
+
+# 什么是 Serverless ？
+
+<div class="abs-tl mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+![](images/serverless_overview.png)
+
+---
+layout: quote
+---
+
+# Serverless 新愿景
+
+新一代开源函数计算平台 - 契机
+
+<div class="abs-tl mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+```shell {1|2-6|7}
+现有开源 Serverless 或 FaaS 平台并不能满足构建现代云原生 FaaS 平台的要求
+
+- 开放的云原生框架
+- 涌现的优先项目
+- 日新月异的业务模式
+
+云原生 Serverless 领域的最新进展为构建新一代 FaaS 平台提供了可能
+```
+
+---
+layout: two-cols
+---
+
+# OpenFunction Lifecycle
+
+新一代开源函数计算平台 - 契机
+
+::right::
+
+<v-clicks>
+<img src="images/openfunction_lifecycle.png" class="my-10 mx-0 h-95" />
+</v-clicks>
+
+<div class="abs-bl mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+---
+layout: default
+---
+# Function Framework
+<div class="grid grid-cols-[300px,600px] gap-4">
+<div>
+
+```go
+package userfunction
+
+import (
+    "fmt"
+    "net/http"
+)
+
+// HelloWorld writes "Hello, World!" to the HTTP response.
+func HelloWorld(w http.ResponseWriter, r *http.Request) {
+    fmt.Fprint(w, "Hello, World!\n")
+}
+```
+
+&emsp;&emsp;&emsp; 用户函数示例 ▲
+
+&emsp;&emsp;&emsp; 函数注册机制 ▶
+
+ </div>
+ 
+ <div>
+
+```go {3-6,16-20|8-14}
+package main
+
+import (
+	...
+	userfunction "{{.Package}}"
+)
+
+func register(fn interface{}) error {
+	...
+	if fnHTTP, ok := fn.(func(http.ResponseWriter, *http.Request)); ok {
+		if err := functionframeworks.RegisterHTTPFunction(ctx, fnHTTP); err != nil {...}
+	}
+	...
+}
+
+func main() {
+	if err := register(userfunction.{{.Target}}); err != nil {
+		log.Fatalf("Failed to register: %v\n", err)
+	}
+}
+```
+  </div>
+  </div>
+
+
+<div class="abs-bl mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+---
+layout: quote
+---
+
+# Function Build
+
+<v-clicks :every='1'>
+
+```shell {1|3|5|7}
+K8s 弃用 Docker 作为 Container Runtime
+
+不能再以 Docker in docker 的方式以 Docker build 构建镜像
+
+还有什么选择？
+
+如何管理 Build pipeline？
+```
+</v-clicks>
+<br>
+
+<div v-click="5">
+
+## 用 Tekton 管理镜像制作流水线
+</div>
+
+<br>
+
+<div v-click="6">
+
+1. 获取源代码
+2. 制作镜像
+3. 上传镜像
+</div>
+
+<div class="abs-br mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+---
+layout: default
+---
+
+# Function Build
+
+> 如何在这些工具直接进行选择和切换？
+
+<br>
+
+<div class="grid grid-cols-[250px,300px,300px] gap-4">
+  <div v-click="1">
+  <br><br>
+
+  - Cloud Native Buildpacks
+  - buildah
+  - buildkit
+  - kaniko
+  </div>
+
+  <div v-click="2">
+  <img src="images/shipwright.png" class="m-0 h-80 rounded" />
+  </div>
+
+  <div v-click="3">
+  <img src="images/shipwright_buildstrategies.png" class="m-0 h-80 rounded" />
+  </div>
+</div>
+<br>
+
+<div class="abs-bl mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+---
+layout: default
+---
+
+# Function Serving
+
+4 种函数调用类型（CNCF Serverless 白皮书）
+
+<img src="images/serverless_function_invocation_types.png" class="rounded" />
+
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+---
+layout: two-cols
+---
+
+# Function Serving
+
+<div v-click="1">
+
+同步函数: HTTP / blocking / Req & Resp
+</div>
+
+<div v-click="2">
+
+运行时：
+  - Knative Serving
+  - KEDA + KEDA http-add-on(Beta) + Deployment
+</div>
+<br><br>
+
+<div v-click="3">
+
+异步函数: Event driven
+</div>
+
+<div v-click="4">
+
+运行时：
+  - KEDA + Deployment / Job
+  - Dapr
+</div>
+
+::right::
+
+<div v-click="2">
+  <img src="images/knative_logo.png" class="m-0 h-30" />
+  <img src="images/keda_http_add_on_logo.png" class="m-0 h-30" />
+</div>
+<div v-click="4">
+  <img src="images/keda_logo.png" class="m-0 h-30" />
+  <img src="images/dapr_logo.svg" class="m-0 h-30" />
+</div>
+
+<div class="abs-br mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+---
+layout: default
+---
+
+# Function Serving - Dapr
+
+- Function Without Dapr
+
+5 种语言 x 10 个 Message Queue = 50 种实现
+
+- Function With Dapr
+
+5 种语言 x 1 个抽象 Message Queue (用 1 种方式即 HTTP/GRPC 对接 10 个 MQ) = 5 种实现
+
+<img src="images/dapr_overview.png" class="mx-40 h-65" />
+
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+---
+layout: section
+---
+
+# OpenFunction 架构
+
+---
+layout: default
+---
+
+# OpenFunction 架构图
+
+<v-clicks>
+
+## ➤ core.openfunction.io
+
+Functions | Servings | Builders
+
+## ➤ events.openfunction.io
+
+EventSources | Triggers | EventBus(ClusterEventBus)
+
+<img src="images/openfunction_arch.png" class="mx-15 h-60" />
+</v-clicks>
+
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+
+---
+layout: section
+---
+
+# OpenFunction 案例
+
+OpenFunction 有哪些应用场景？OpenFunction 还能做什么？
+
+---
+layout: default
+---
+
+# 事件管理框架
+
+<v-clicks>
+
+>本质上来看，事件框架也是一个由事件驱动的工作负载，那么它本身可以是 Serverless 形式的工作负载吗？
+>
+>可以用 OpenFunction 的异步函数来驱动吗？
+
+<img src="images/openfunction_events_framework.png" class="my-10 mx-15 h-80" />
+</v-clicks>
+
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+---
+layout: default
+---
+
+# 自定义日志告警
+
+<v-clicks>
+
+>以 Serverless 的方式用 OpenFunction 异步函数实现日志告警
+
+<img src="images/openfunction_notification.png" class="my-5 mx-45 h-95" />
+</v-clicks>
+
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+---
+layout: section
+---
+
+# OpenFunction 社区
+
+交流、参与、演进
+
+---
+layout: default
+---
+
+# OpenFunction Roadmap
+
+<v-clicks>
+  <img src="images/openfunction_roadmap.png" class="my-10 mx-0 h-95" />
+</v-clicks>
+
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+---
+layout: default
+class: text-center
+---
+
+# OpenFunction Community
+
+<img src="images/openfunction_logo.svg" class="my-10 mx-80 h-20" /> 
+
+→ https://github.com/OpenFunction
+
+<br>
+
+## 主要仓库
+→ https://github.com/OpenFunction/OpenFunction
+
+→ https://github.com/OpenFunction/functions-framework
+
+→ https://github.com/OpenFunction/builder
+
+→ https://github.com/OpenFunction/samples
+
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+
+---
+layout: section
+---
+
 # 图数据库简介
 
 什么是图？ 什么是图数据库？ 为什么我们需要一个专门的数据库？
