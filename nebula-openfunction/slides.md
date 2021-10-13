@@ -130,7 +130,7 @@ class: text-center
   <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
 </div>
 
-![](images/serverless_overview.png)
+<img src="images/serverless_overview.webp" class="rounded">
 
 ---
 layout: quote
@@ -165,7 +165,7 @@ layout: two-cols
 ::right::
 
 <v-clicks>
-<img src="images/openfunction_lifecycle.png" class="my-10 mx-0 h-95" />
+<img src="images/openfunction_lifecycle.webp" class="my-10 mx-0 h-95" />
 </v-clicks>
 
 <div class="abs-bl mx-12 my-6 flex">
@@ -290,11 +290,11 @@ layout: default
   </div>
 
   <div v-click="2">
-  <img src="images/shipwright.png" class="m-0 h-80 rounded" />
+  <img src="images/shipwright.webp" class="m-0 h-80 rounded" />
   </div>
 
   <div v-click="3">
-  <img src="images/shipwright_buildstrategies.png" class="m-0 h-80 rounded" />
+  <img src="images/shipwright_buildstrategies.webp" class="m-0 h-80 rounded" />
   </div>
 </div>
 <br>
@@ -310,7 +310,7 @@ layout: default
 
 4 种函数调用类型（CNCF Serverless 白皮书）
 
-<img src="images/serverless_function_invocation_types.png" class="rounded" />
+<img src="images/serverless_function_invocation_types.webp" class="rounded" />
 
 <div class="abs-tr mx-12 my-6 flex">
   <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
@@ -349,11 +349,11 @@ layout: two-cols
 ::right::
 
 <div v-click="2">
-  <img src="images/knative_logo.png" class="m-0 h-30" />
-  <img src="images/keda_http_add_on_logo.png" class="m-0 h-30" />
+  <img src="images/knative_logo.webp" class="m-0 h-30" />
+  <img src="images/keda_http_add_on_logo.webp" class="m-0 h-30" />
 </div>
 <div v-click="4">
-  <img src="images/keda_logo.png" class="m-0 h-30" />
+  <img src="images/keda_logo.webp" class="m-0 h-30" />
   <img src="images/dapr_logo.svg" class="m-0 h-30" />
 </div>
 
@@ -374,7 +374,7 @@ layout: default
 
 5 种语言 x 1 个抽象 Message Queue (用 1 种方式即 HTTP/GRPC 对接 10 个 MQ) = 5 种实现
 
-<img src="images/dapr_overview.png" class="mx-40 h-65" />
+<img src="images/dapr_overview.webp" class="mx-40 h-65" />
 
 <div class="abs-tr mx-12 my-6 flex">
   <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
@@ -384,7 +384,8 @@ layout: default
 layout: section
 ---
 
-# OpenFunction 架构
+# OpenFunction
+新一代开源函数计算平台
 
 ---
 layout: default
@@ -402,7 +403,7 @@ Functions | Servings | Builders
 
 EventSources | Triggers | EventBus(ClusterEventBus)
 
-<img src="images/openfunction_arch.png" class="mx-15 h-60" />
+<img src="images/openfunction_arch.webp" class="mx-15 h-60" />
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
@@ -430,7 +431,7 @@ layout: default
 >
 >可以用 OpenFunction 的异步函数来驱动吗？
 
-<img src="images/openfunction_events_framework.png" class="my-10 mx-15 h-80" />
+<img src="images/openfunction_events_framework.webp" class="my-10 mx-15 h-80" />
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
@@ -447,7 +448,7 @@ layout: default
 
 >以 Serverless 的方式用 OpenFunction 异步函数实现日志告警
 
-<img src="images/openfunction_notification.png" class="my-5 mx-45 h-95" />
+<img src="images/openfunction_notification.webp" class="my-5 mx-45 h-95" />
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
@@ -469,7 +470,7 @@ layout: default
 # OpenFunction Roadmap
 
 <v-clicks>
-  <img src="images/openfunction_roadmap.png" class="my-10 mx-0 h-95" />
+  <img src="images/openfunction_roadmap.webp" class="my-10 mx-0 h-95" />
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
