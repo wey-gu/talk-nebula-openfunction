@@ -100,6 +100,19 @@ layout: section
 什么是 Serverless ？ Serverless / FaaS 领域开源现状如何？ Serverless 的新愿景？
 
 ---
+layout: center
+class: text-center
+---
+
+# 什么是 Serverless ？
+
+<div class="abs-tl mx-12 my-6 flex">
+  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+</div>
+
+<img src="images/serverless_overview.webp" class="rounded">
+
+---
 layout: quote
 ---
 
@@ -119,18 +132,6 @@ OpenFaaS: 比较流行的 FaaS 项目，但是技术栈有点老旧，依赖于 
 近年来云原生 Serverless 相关领域陆续涌现出了很多优秀的开源项目：
 KEDA、Dapr、Cloud Native Buildpacks（CNB）、Tekton、Shipwright
 ```
----
-layout: center
-class: text-center
----
-
-# 什么是 Serverless ？
-
-<div class="abs-tl mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
-</div>
-
-<img src="images/serverless_overview.webp" class="rounded">
 
 ---
 layout: quote
@@ -148,7 +149,7 @@ layout: quote
 现有开源 Serverless 或 FaaS 平台并不能满足构建现代云原生 FaaS 平台的要求
 
 - 开放的云原生框架
-- 涌现的优先项目
+- 涌现的优秀项目
 - 日新月异的业务模式
 
 云原生 Serverless 领域的最新进展为构建新一代 FaaS 平台提供了可能
@@ -158,7 +159,7 @@ layout: quote
 layout: two-cols
 ---
 
-# OpenFunction Lifecycle
+# Function Lifecycle
 
 新一代开源函数计算平台 - 契机
 
