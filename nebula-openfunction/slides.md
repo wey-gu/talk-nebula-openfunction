@@ -35,7 +35,7 @@ Graph DB on K8s Demystified and its Serverless applicaiton in actions.
 </div>
 
 <div class="abs-bl mx-14 my-12 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-9">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
   <div class="ml-3 flex flex-col text-left">
     <div><b>KCD China</b> 2021</div>
     <div class="text-sm opacity-50">Dec. 16th @Shanghai</div>
@@ -67,6 +67,10 @@ layout: 'intro'
 
 <img src="https://siwei.io/images/avatar.webp" class="rounded-full w-40 abs-tr mt-16 mr-12"/>
 
+<div class="abs-tr mr-8 mt-70 flex opacity-55">
+  <img src="images/kcd-logo-vertical.png" class="h-40">
+</div>
+
 ---
 layout: 'intro'
 ---
@@ -88,8 +92,11 @@ layout: 'intro'
   <div><a href="https://www.laminar.fun/" target="_blank">laminar.fun</a></div>
 </div>
 
-<!-- 这里换成您的头像哈？ -->
 <img src="https://www.laminar.fun/uploads/avatar.png" class="rounded-full w-40 abs-tr mt-16 mr-12"/>
+
+<div class="abs-tr mr-8 mt-70 flex opacity-55">
+  <img src="images/kcd-logo-vertical.png" class="h-40">
+</div>
 
 ---
 layout: section
@@ -107,7 +114,7 @@ class: text-center
 # 什么是 Serverless ？
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <img src="images/serverless_overview.webp" class="rounded">
@@ -119,7 +126,7 @@ layout: quote
 # Serverless / FaaS 领域开源项目现状
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ```shell {1|2-5|6-8}
@@ -142,7 +149,7 @@ layout: quote
 新一代开源函数计算平台 - 契机
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ```shell {1|2-6|7}
@@ -170,7 +177,7 @@ layout: two-cols
 </v-clicks>
 
 <div class="abs-bl mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -229,7 +236,7 @@ func main() {
 
 
 <div class="abs-bl mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -267,7 +274,7 @@ K8s 弃用 Docker 作为 Container Runtime
 </div>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -301,7 +308,7 @@ layout: default
 <br>
 
 <div class="abs-bl mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 ---
 layout: default
@@ -314,7 +321,7 @@ layout: default
 <img src="images/serverless_function_invocation_types.webp" class="rounded" />
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 ---
 layout: two-cols
@@ -359,7 +366,7 @@ layout: two-cols
 </div>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 ---
 layout: default
@@ -378,7 +385,7 @@ layout: default
 <img src="images/dapr_overview.webp" class="mx-40 h-65" />
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -408,7 +415,7 @@ EventSources | Triggers | EventBus(ClusterEventBus)
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 
@@ -436,7 +443,7 @@ layout: default
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -453,7 +460,7 @@ layout: default
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -475,7 +482,7 @@ layout: default
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -501,7 +508,7 @@ class: text-center
 → https://github.com/OpenFunction/samples
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 
@@ -522,7 +529,7 @@ class: text-center
 # 什么是图？
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -548,7 +555,7 @@ layout: quote
 了解更多关于 [什么是图数据库](https://nebula-graph.com.cn/about/)
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -607,7 +614,7 @@ class: text-center
 </div>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -664,7 +671,7 @@ MCU 电影宇宙
 </v-clicks>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -691,7 +698,7 @@ Nebula Graph 是面向分布式架构设计的，是天然亲和云原生环境�
 -->
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -730,7 +737,7 @@ Nebula Graph 是面向分布式架构设计的，是天然亲和云原生环境�
 </div>
 
 <div class="abs-bl mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -841,7 +848,7 @@ func (s *storUpd) updPhase(mc nebula.MI) {
 
 
 <div class="abs-bl mx-14 my-8 flex">
-  <ri-info-line class="opacity-70"/>
+  <clarity:info-circle-line class="opacity-70"/>
   <div class="ml-3 flex flex-col text-left opacity-70">
     <div><a href="https://github.com/vesoft-inc/nebula-operator" target="_blank">vesoft-inc/<b>nebula-operator</b> </a></div>
   </div>
@@ -942,7 +949,7 @@ Nebula 社区生态非常丰富，并且还在日益拓展，欢迎同学们了�
 </div>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -996,7 +1003,7 @@ layout: section
 </div>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -1033,8 +1040,8 @@ $ curl http://function-sample-serving-9sszk-ksvc-xlfkz.default.example.com
 Hello, World!
 ```
 
-<div class="abs-bl mx-12 my-3 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -1070,6 +1077,10 @@ Got 4 rows (time spent 2510/2955 us)
 
 Wed, 01 Sep 2021 20:38:42 UTC
 ```
+
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+</div>
 
 ---
 
@@ -1109,6 +1120,10 @@ Wed, 01 Sep 2021 20:47:58 UTC
   </div>
 </div>
 
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+</div>
+
 ---
 layout: section
 ---
@@ -1118,7 +1133,7 @@ layout: section
 Siwi (/ˈsɪwi/) is a PoC of Dialog System With Graph Database Backed Knowledge Graph.
 
 <div class="abs-bl mx-8 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -1197,6 +1212,9 @@ Siwi on KubeSphere + OpenFunction
 
 
 ---
+layout: iframe-right
+url: https://openfunction.dev/
+---
 
 # The Function
 
@@ -1229,15 +1247,16 @@ Siwi on KubeSphere + OpenFunction
   ```
   </div>
 
-  <div v-click="1">
+  <!-- <div v-click="1">
     <img src="https://siwei.io/talks/2021-09-kubesphere/images/openFunction_desc.webp">
-  </div>
+  </div> -->
 
 </div>
 
 <div class="abs-bl mx-8 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
+
 
 <!--
 - App Engine/ HeroKU/ Lambda
@@ -1246,10 +1265,11 @@ Siwi on KubeSphere + OpenFunction
 
 - 这种形式的资源共享与自服务模型，包括事件驱动，复杂流程的拼接带来了无限的可能性
 
-  - Nebula Insight (低频使用，Managed) --> 对应到组织内部使得一些 workload 更容易被管理起来，串联起来。
+  - Nebula Insight (低频使用，Managed) -> 对应到组织内部使得一些 workload 更容易被管理起来，串联起来。
   - Nebula Pokemon (Demo)
 
 - 开源实现 和 K8s 是一个很好的结合点，是一个非常可行的方向，趁着还没有成熟（类似于图数据库领域），推荐大家参与到社区来
+
 -->
 
 ---
@@ -1280,7 +1300,7 @@ Siwi on KubeSphere + OpenFunction
 </div> -->
 
 <div class="abs-br mx-8 my-6 flex">
-  <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-cncf/contentbuilder/logo_dark_backgrounds_Zwrq7bQ.svg" class="h-8">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -1289,12 +1309,21 @@ image: 'images/more_about_nebula.webp'
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+</div>
+
 # end-0
 
 ---
 layout: image
-image: 'images/thanks.webp'
+image: 'images/more_about_kubesphere.webp'
 ---
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="abs-tr mx-12 my-6 flex">
+  <img src="images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+</div>
 
 # end-1
