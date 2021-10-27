@@ -38,7 +38,7 @@ Graph DB on K8s Demystified and its Serverless applicaiton in actions.
   <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
   <div class="ml-3 flex flex-col text-left">
     <div><b>KCD China</b> 2021</div>
-    <div class="text-sm opacity-50">Dec. 16th @Shanghai</div>
+    <div class="text-sm opacity-50">Nov. 6th @Shanghai</div>
   </div>
 </div>
 
