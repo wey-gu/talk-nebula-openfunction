@@ -1305,7 +1305,7 @@ url: https://openfunction.dev/
 
 ---
 layout: image
-image: 'images/more_about_nebula.webp'
+image: 'https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/more_about_nebula.webp'
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -1317,7 +1317,7 @@ image: 'images/more_about_nebula.webp'
 
 ---
 layout: image
-image: 'images/more_about_kubesphere.webp'
+image: 'https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/more_about_kubesphere.webp'
 ---
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
