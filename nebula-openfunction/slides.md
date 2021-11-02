@@ -99,6 +99,38 @@ layout: 'intro'
 </div>
 
 ---
+
+# Overview
+
+- 了解 K8s 上的 Serverless 计算平台搭建实践：OpenFunction
+- K8s 上的图数据库基于 KubeBuilder 的 Operator 实现，解谜图数据库的知识与应用
+- 上手 K8s 上的云原生图数据库、从零到一构建 Serverless 架构的智能问答助手
+
+<br><br><br><br>
+
+[siwei.io/talks/2021-KCD](https://siwei.io/talks/2021-KCD)
+
+
+[laminar.fun/talks/2021-KCD](https://laminar.fun/talks/2021-KCD)
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(30deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+<div class="abs-br mx-8 my-6 flex">
+  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+</div>
+
+
+---
 layout: section
 ---
 
@@ -1284,7 +1316,7 @@ Demo Video: https://www.bilibili.com/video/BV1uR4y1E7qi?zw
 
 ---
 
-# 回顾
+# Recap
 
 - 了解 K8s 上的 Serverless 计算平台搭建实践：OpenFunction
   - 使用 Tekton、Cloud Native Buildpacks、Shipwright 搭建 OCI 镜像构建流水线
@@ -1300,14 +1332,17 @@ Demo Video: https://www.bilibili.com/video/BV1uR4y1E7qi?zw
   - Siwi，一个基于 Nebula 的单一领域问答机器人
   - Nebula-Siwi on FaaS on KubeSphere
 
-<!-- <div class="my-10 grid grid-cols-[40px,1fr] w-min gap-y-4" v-click="1">
-  <ri-github-line class="opacity-75"/>
-  <div><a href="https://github.com/wey-gu" target="_blank">wey-gu</a></div>
-  <ri-twitter-line class="opacity-75"/>
-  <div><a href="https://twitter.com/wey_gu" target="_blank">wey_gu</a></div>
-  <ri-user-3-line class="opacity-75"/>
-  <div><a href="https://siwei.io" target="_blank">siwei.io</a></div>
-</div> -->
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(30deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 <div class="abs-br mx-8 my-6 flex">
   <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
