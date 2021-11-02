@@ -1,6 +1,6 @@
 ---
 theme: default
-download: 'https://siwei.io/talks/2021-KDC/slides-export.pdf'
+download: 'https://siwei.io/talks/2021-KCD/slides-export.pdf'
 background: https://source.unsplash.com/9AqIdzEc9pY/1920x1080
 highlighter: shiki
 info: |
@@ -1203,15 +1203,6 @@ layout: two-cols
 </div>
 
 ---
-layout: section
----
-
-# Live Demo
-
-Siwi on KubeSphere + OpenFunction
-
-
----
 layout: iframe-right
 url: https://openfunction.dev/
 ---
@@ -1219,31 +1210,34 @@ url: https://openfunction.dev/
 # The Function
 
 <div class="grid grid-cols-[330px,390px] gap-2 pt-4 -mb-6">
-
   <div>
 
-  ```bash
-  docker build -t weygu/siwi-api .
-  docker push weygu/siwi-api
-  ```
-
   ```yaml
-  apiVersion: core.openfunction.io/v1alpha1
-  kind: Function
-  metadata:
-    name: nebula-siwi
-  spec:
-    version: "v1.0.0"
-    image: "weygu/siwi-api:latest"
-    imageCredentials:
-      name: push-secret
-    port: 5000
-    serving:
-      runtime: Knative
-      template:
-        containers:
-          - name: function
-            imagePullPolicy: Always
+apiVersion: core.openfunction.io/v1alpha1
+kind: Function
+metadata:
+  name: nebula-siwi
+spec:
+  version: "v1.0.0"
+  image: "weygu/siwi-api:latest"
+  imageCredentials:
+    name: push-secret
+  build:
+    builder: openfunction/builder:v1
+    env:
+      FUNC_NAME: "siwi_api"
+      FUNC_SRC: "main.py"
+    srcRepo:
+      url: "https://github.com/wey-gu/nebula-siwi.git"
+      sourceSubPath: "src"
+  serving:
+    runtime: Knative
+    params:
+      NG_ENDPOINTS: "NEBULA_GRAPH_ENDPOINT"
+    template:
+      containers:
+        - name: function
+          imagePullPolicy: Always
   ```
   </div>
 
@@ -1253,10 +1247,9 @@ url: https://openfunction.dev/
 
 </div>
 
-<div class="abs-bl mx-8 my-6 flex">
+<div class="abs-br mx-8 my-6 flex">
   <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
-
 
 <!--
 - App Engine/ HeroKU/ Lambda
@@ -1271,6 +1264,23 @@ url: https://openfunction.dev/
 - 开源实现 和 K8s 是一个很好的结合点，是一个非常可行的方向，趁着还没有成熟（类似于图数据库领域），推荐大家参与到社区来
 
 -->
+
+---
+layout: section
+---
+
+# Live Demo
+
+Siwi on KubeSphere + OpenFunction
+
+
+---
+layout: iframe
+url: https://player.bilibili.com/player.html?aid=336429524&bvid=BV1uR4y1E7qi&cid=435134618&page=1&as_wide=1&high_quality=1&danmaku=0
+---
+
+# Demo Video
+Demo Video: https://www.bilibili.com/video/BV1uR4y1E7qi?zw
 
 ---
 

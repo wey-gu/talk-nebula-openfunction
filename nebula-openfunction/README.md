@@ -9,3 +9,11 @@ To start the slide show:
 Edit the [slides.md](./slides.md) to see the changes.
 
 Learn more about Slidev on [documentations](https://sli.dev/).
+
+
+
+----------
+
+Online version: https://siwei.io/talks/2021-KCD/
+
+PDF: https://siwei.io/talks/2021-KCD/slides-export.pdf
