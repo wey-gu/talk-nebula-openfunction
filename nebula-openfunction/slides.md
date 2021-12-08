@@ -35,7 +35,7 @@ Graph DB on K8s Demystified and its Serverless applicaiton in actions.
 </div>
 
 <div class="abs-bl mx-14 my-12 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
   <div class="ml-3 flex flex-col text-left">
     <div><b>KCD China</b> 2021</div>
     <div class="text-sm opacity-50">Nov. 6th @Shanghai</div>
@@ -68,7 +68,7 @@ layout: 'intro'
 <img src="https://siwei.io/images/avatar.webp" class="rounded-full w-40 abs-tr mt-16 mr-12"/>
 
 <div class="abs-tr mr-8 mt-70 flex opacity-55">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-vertical.png" class="h-40">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-vertical.png" class="h-40">
 </div>
 
 ---
@@ -95,7 +95,7 @@ layout: 'intro'
 <img src="https://www.laminar.fun/uploads/avatar.png" class="rounded-full w-40 abs-tr mt-16 mr-12"/>
 
 <div class="abs-tr mr-8 mt-70 flex opacity-55">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-vertical.png" class="h-40">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-vertical.png" class="h-40">
 </div>
 
 ---
@@ -126,7 +126,7 @@ h1 {
 </style>
 
 <div class="abs-br mx-8 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 
@@ -146,10 +146,10 @@ class: text-center
 # 什么是 Serverless ？
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
-<img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/serverless_overview.webp" class="rounded">
+<img src="https://siwei.io/talks/2021-KCD/images/serverless_overview.webp" class="rounded">
 
 ---
 layout: quote
@@ -158,7 +158,7 @@ layout: quote
 # Serverless / FaaS 领域开源项目现状
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ```shell {1|2-5|6-8}
@@ -181,7 +181,7 @@ layout: quote
 新一代开源函数计算平台 - 契机
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ```shell {1|2-6|7}
@@ -205,11 +205,11 @@ layout: two-cols
 ::right::
 
 <v-clicks>
-<img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/openfunction_lifecycle.webp" class="my-10 mx-0 h-95" />
+<img src="https://siwei.io/talks/2021-KCD/images/openfunction_lifecycle.webp" class="my-10 mx-0 h-95" />
 </v-clicks>
 
 <div class="abs-bl mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -268,7 +268,7 @@ func main() {
 
 
 <div class="abs-bl mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -306,7 +306,7 @@ K8s 弃用 Docker 作为 Container Runtime
 </div>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -330,17 +330,17 @@ layout: default
   </div>
 
   <div v-click="2">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/shipwright.webp" class="m-0 h-80 rounded" />
+  <img src="https://siwei.io/talks/2021-KCD/images/shipwright.webp" class="m-0 h-80 rounded" />
   </div>
 
   <div v-click="3">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/shipwright_buildstrategies.webp" class="m-0 h-80 rounded" />
+  <img src="https://siwei.io/talks/2021-KCD/images/shipwright_buildstrategies.webp" class="m-0 h-80 rounded" />
   </div>
 </div>
 <br>
 
 <div class="abs-bl mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 ---
 layout: default
@@ -350,10 +350,10 @@ layout: default
 
 4 种函数调用类型（CNCF Serverless 白皮书）
 
-<img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/serverless_function_invocation_types.webp" class="rounded" />
+<img src="https://siwei.io/talks/2021-KCD/images/serverless_function_invocation_types.webp" class="rounded" />
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 ---
 layout: two-cols
@@ -389,16 +389,16 @@ layout: two-cols
 ::right::
 
 <div v-click="2">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/knative_logo.webp" class="m-0 h-30" />
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/keda_http_add_on_logo.webp" class="m-0 h-30" />
+  <img src="https://siwei.io/talks/2021-KCD/images/knative_logo.webp" class="m-0 h-30" />
+  <img src="https://siwei.io/talks/2021-KCD/images/keda_http_add_on_logo.webp" class="m-0 h-30" />
 </div>
 <div v-click="4">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/keda_logo.webp" class="m-0 h-30" />
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/dapr_logo.svg" class="m-0 h-30" />
+  <img src="https://siwei.io/talks/2021-KCD/images/keda_logo.webp" class="m-0 h-30" />
+  <img src="https://siwei.io/talks/2021-KCD/images/dapr_logo.svg" class="m-0 h-30" />
 </div>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 ---
 layout: default
@@ -414,10 +414,10 @@ layout: default
 
 5 种语言 x 1 个抽象 Message Queue (用 1 种方式即 HTTP/GRPC 对接 10 个 MQ) = 5 种实现
 
-<img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/dapr_overview.webp" class="mx-40 h-65" />
+<img src="https://siwei.io/talks/2021-KCD/images/dapr_overview.webp" class="mx-40 h-65" />
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -443,11 +443,11 @@ Functions | Servings | Builders
 
 EventSources | Triggers | EventBus(ClusterEventBus)
 
-<img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/openfunction_arch.webp" class="mx-15 h-60" />
+<img src="https://siwei.io/talks/2021-KCD/images/openfunction_arch.webp" class="mx-15 h-60" />
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 
@@ -471,11 +471,11 @@ layout: default
 >
 >可以用 OpenFunction 的异步函数来驱动吗？
 
-<img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/openfunction_events_framework.webp" class="my-10 mx-15 h-80" />
+<img src="https://siwei.io/talks/2021-KCD/images/openfunction_events_framework.webp" class="my-10 mx-15 h-80" />
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -488,11 +488,11 @@ layout: default
 
 >以 Serverless 的方式用 OpenFunction 异步函数实现日志告警
 
-<img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/openfunction_notification.webp" class="my-5 mx-45 h-95" />
+<img src="https://siwei.io/talks/2021-KCD/images/openfunction_notification.webp" class="my-5 mx-45 h-95" />
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -510,11 +510,11 @@ layout: default
 # OpenFunction Roadmap
 
 <v-clicks>
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/openfunction_roadmap.webp" class="my-10 mx-0 h-95" />
+  <img src="https://siwei.io/talks/2021-KCD/images/openfunction_roadmap.webp" class="my-10 mx-0 h-95" />
 </v-clicks>
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -524,7 +524,7 @@ class: text-center
 
 # OpenFunction Community
 
-<img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/openfunction_logo.svg" class="my-10 mx-80 h-20" /> 
+<img src="https://siwei.io/talks/2021-KCD/images/openfunction_logo.svg" class="my-10 mx-80 h-20" /> 
 
 → https://github.com/OpenFunction
 
@@ -540,7 +540,7 @@ class: text-center
 → https://github.com/OpenFunction/samples
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 
@@ -561,7 +561,7 @@ class: text-center
 # 什么是图？
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -587,7 +587,7 @@ layout: quote
 了解更多关于 [什么是图数据库](https://nebula-graph.com.cn/about/)
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -646,7 +646,7 @@ class: text-center
 </div>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -703,7 +703,7 @@ MCU 电影宇宙
 </v-clicks>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -730,7 +730,7 @@ Nebula Graph 是面向分布式架构设计的，是天然亲和云原生环境�
 -->
 
 <div class="abs-tl mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -769,7 +769,7 @@ Nebula Graph 是面向分布式架构设计的，是天然亲和云原生环境�
 </div>
 
 <div class="abs-bl mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -981,7 +981,7 @@ Nebula 社区生态非常丰富，并且还在日益拓展，欢迎同学们了�
 </div>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -1035,7 +1035,7 @@ layout: section
 </div>
 
 <div class="abs-br mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -1073,7 +1073,7 @@ Hello, World!
 ```
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -1111,7 +1111,7 @@ Wed, 01 Sep 2021 20:38:42 UTC
 ```
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -1153,7 +1153,7 @@ Wed, 01 Sep 2021 20:47:58 UTC
 </div>
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -1165,7 +1165,7 @@ layout: section
 Siwi (/ˈsɪwi/) is a PoC of Dialog System With Graph Database Backed Knowledge Graph.
 
 <div class="abs-bl mx-8 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
@@ -1280,7 +1280,7 @@ spec:
 </div>
 
 <div class="abs-br mx-8 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 <!--
@@ -1345,30 +1345,30 @@ h1 {
 </style>
 
 <div class="abs-br mx-8 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 ---
 layout: image
-image: 'https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/more_about_nebula.webp'
+image: 'https://siwei.io/talks/2021-KCD/images/more_about_nebula.webp'
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 # end-0
 
 ---
 layout: image
-image: 'https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/more_about_kubesphere.webp'
+image: 'https://siwei.io/talks/2021-KCD/images/more_about_kubesphere.webp'
 ---
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <div class="abs-tr mx-12 my-6 flex">
-  <img src="https://raw.githubusercontent.com/wey-gu/talk-nebula-openfunction/main/nebula-openfunction/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
+  <img src="https://siwei.io/talks/2021-KCD/images/kcd-logo-horizontal.png" class="h-15 opacity-70">
 </div>
 
 # end-1
